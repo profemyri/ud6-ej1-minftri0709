@@ -13,6 +13,12 @@
     </html>
   </xsl:template>
   
-  
+  <xsl:template match="game">
+    <div class="game">
+      <h2><xsl:value-of select="name"/></h2>
+      <p><xsl:value-of select="description"/></p>
+      <p>Platform: <xsl:value-of select="platform"/></p>
+    </div>
+  </xsl:template>
   
 </xsl:stylesheet>
