@@ -20,5 +20,4 @@
       <p>Platform: <xsl:value-of select="platform"/></p>
     </div>
   </xsl:template>
-  
 </xsl:stylesheet>
